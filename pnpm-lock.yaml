@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.2.12
     version: 1.2.12
   '@orama/orama':
-    specifier: 1.2.5
-    version: 1.2.5
+    specifier: 1.2.6
+    version: 1.2.6
   '@playwright/test':
     specifier: 1.38.0
     version: 1.38.0
@@ -571,8 +571,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@orama/orama@1.2.5:
-    resolution: {integrity: sha512-3LjvfarsMD/DDC4oSjF6CkUy7q6hsnmvtyzB6Gi/f2u634agGLQ9asqdAJTJqz1cfwqEVhFKw394HQ3g0XvKgw==}
+  /@orama/orama@1.2.6:
+    resolution: {integrity: sha512-wTAv89A+1MblRPrQRjhxxYof/2tbLoL4omQOB5Ft/ur7sAJFp+GVa1C4bmBmHpl9R5dJfkueTfczv4oqQIRuCQ==}
     engines: {node: '>= 16.0.0'}
     dev: true
 

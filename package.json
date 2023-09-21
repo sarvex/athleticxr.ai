@@ -30,7 +30,7 @@
     "@builder.io/partytown": "0.8.1",
     "@builder.io/qwik": "1.2.12",
     "@builder.io/qwik-city": "1.2.12",
-    "@orama/orama": "1.2.5",
+    "@orama/orama": "1.2.6",
     "@playwright/test": "1.38.0",
     "@types/eslint": "8.44.2",
     "@types/node": "20.6.3",
