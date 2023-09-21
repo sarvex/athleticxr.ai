@@ -48,7 +48,7 @@ devDependencies:
     specifier: 8.49.0
     version: 8.49.0
   eslint-plugin-qwik:
-    specifier: ^1.2.11
+    specifier: 1.2.11
     version: 1.2.11(eslint@8.49.0)
   postcss:
     specifier: 8.4.29
