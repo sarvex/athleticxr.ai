@@ -6,13 +6,13 @@ settings:
 
 devDependencies:
   '@builder.io/partytown':
-    specifier: ^0.8.1
+    specifier: 0.8.1
     version: 0.8.1
   '@builder.io/qwik':
-    specifier: ^1.2.11
+    specifier: 1.2.11
     version: 1.2.11(undici@5.25.1)
   '@builder.io/qwik-city':
-    specifier: ^1.2.11
+    specifier: 1.2.11
     version: 1.2.11
   '@orama/orama':
     specifier: 1.2.4
@@ -24,7 +24,7 @@ devDependencies:
     specifier: 8.44.2
     version: 8.44.2
   '@types/node':
-    specifier: ^20.6.2
+    specifier: 20.6.2
     version: 20.6.2
   '@typescript-eslint/eslint-plugin':
     specifier: 6.2.0
@@ -33,16 +33,16 @@ devDependencies:
     specifier: 6.7.0
     version: 6.7.0(eslint@8.49.0)(typescript@5.2.2)
   '@vitest/ui':
-    specifier: ^0.33.0
+    specifier: 0.33.0
     version: 0.33.0(vitest@0.33.0)
   autoprefixer:
-    specifier: ^10.4.15
+    specifier: 10.4.15
     version: 10.4.15(postcss@8.4.29)
   cypress:
-    specifier: ~13.2.0
+    specifier: 13.2.0
     version: 13.2.0
   cypress-ct-qwik:
-    specifier: ~0.3.0
+    specifier: 0.3.0
     version: 0.3.0(@builder.io/qwik@1.2.11)(cypress@13.2.0)
   eslint:
     specifier: 8.49.0
@@ -66,7 +66,7 @@ devDependencies:
     specifier: 5.25.1
     version: 5.25.1
   vercel:
-    specifier: ^32.2.4
+    specifier: 32.2.4
     version: 32.2.4
   vite:
     specifier: 4.4.9
@@ -75,7 +75,7 @@ devDependencies:
     specifier: 4.2.1
     version: 4.2.1(typescript@5.2.2)(vite@4.4.9)
   vitest:
-    specifier: ^0.33.0
+    specifier: 0.33.0
     version: 0.33.0(@vitest/ui@0.33.0)
 
 packages:
