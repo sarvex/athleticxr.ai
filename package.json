@@ -31,12 +31,12 @@
     "@builder.io/qwik": "1.2.12",
     "@builder.io/qwik-city": "1.2.12",
     "@orama/orama": "1.2.6",
-    "@playwright/test": "1.38.0",
-    "@types/eslint": "8.44.2",
-    "@types/node": "20.6.3",
+    "@playwright/test": "1.38.1",
+    "@types/eslint": "8.44.3",
+    "@types/node": "20.6.4",
     "@typescript-eslint/eslint-plugin": "6.7.2",
     "@typescript-eslint/parser": "6.7.2",
-    "@vitest/ui": "0.34.4",
+    "@vitest/ui": "0.34.5",
     "autoprefixer": "10.4.16",
     "cypress": "13.2.0",
     "cypress-ct-qwik": "0.3.0",
@@ -46,10 +46,10 @@
     "prettier": "3.0.3",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
-    "undici": "5.25.1",
+    "undici": "5.25.2",
     "vercel": "32.2.5",
     "vite": "4.4.9",
     "vite-tsconfig-paths": "4.2.1",
-    "vitest": "0.34.4"
+    "vitest": "0.34.5"
   }
 }
