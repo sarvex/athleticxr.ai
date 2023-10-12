@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.2.13
     version: 1.2.13
   '@orama/orama':
-    specifier: 1.2.10
-    version: 1.2.10
+    specifier: 1.2.11
+    version: 1.2.11
   '@playwright/test':
     specifier: 1.38.1
     version: 1.38.1
@@ -39,11 +39,11 @@ devDependencies:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
   cypress:
-    specifier: 13.3.0
-    version: 13.3.0
+    specifier: 13.3.1
+    version: 13.3.1
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.2.13)(cypress@13.3.0)
+    version: 0.3.0(@builder.io/qwik@1.2.13)(cypress@13.3.1)
   eslint:
     specifier: 8.51.0
     version: 8.51.0
@@ -570,8 +570,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@orama/orama@1.2.10:
-    resolution: {integrity: sha512-B5L8/klWim9Mepc0suK3pG8NkEPRDUa/CfhXCISDHaEFLiTvJXDmB8Zr9A+fWnU+2vIJm0aTzv2LWMNms9qAiw==}
+  /@orama/orama@1.2.11:
+    resolution: {integrity: sha512-0yDcWgxOX0je18Z5dR64r4L3Jzm6bDNIpqM7qSu7H+9qhf6EsnlJbICrjt/oJ+WYnwiog4T0OXduVfLwAX+NVA==}
     engines: {node: '>= 16.0.0'}
     dev: true
 
@@ -1796,7 +1796,7 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.13)(cypress@13.3.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.13)(cypress@13.3.1):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
@@ -1804,11 +1804,11 @@ packages:
     dependencies:
       '@builder.io/qwik': 1.2.13(undici@5.25.4)
       '@cypress/mount-utils': 4.0.0
-      cypress: 13.3.0
+      cypress: 13.3.1
     dev: true
 
-  /cypress@13.3.0:
-    resolution: {integrity: sha512-mpI8qcTwLGiA4zEQvTC/U1xGUezVV4V8HQCOYjlEOrVmU1etVvxOjkCXHGwrlYdZU/EPmUiWfsO3yt1o+Q2bgw==}
+  /cypress@13.3.1:
+    resolution: {integrity: sha512-g4mJLZxYN+UAF2LMy3Znd4LBnUmS59Vynd81VES59RdW48Yt+QtR2cush3melOoVNz0PPbADpWr8DcUx6mif8Q==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
