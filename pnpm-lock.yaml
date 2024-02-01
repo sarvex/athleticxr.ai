@@ -69,11 +69,11 @@ devDependencies:
     specifier: 33.4.1
     version: 33.4.1
   vite:
-    specifier: 5.0.11
-    version: 5.0.11(@types/node@20.11.14)
+    specifier: 5.0.12
+    version: 5.0.12(@types/node@20.11.14)
   vite-tsconfig-paths:
     specifier: 4.3.1
-    version: 4.3.1(typescript@5.3.3)(vite@5.0.11)
+    version: 4.3.1(typescript@5.3.3)(vite@5.0.12)
   vitest:
     specifier: 1.2.2
     version: 1.2.2(@types/node@20.11.14)(@vitest/ui@1.2.2)
@@ -6144,7 +6144,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.1(typescript@5.3.3)(vite@5.0.11):
+  /vite-tsconfig-paths@4.3.1(typescript@5.3.3)(vite@5.0.12):
     resolution: {integrity: sha512-cfgJwcGOsIxXOLU/nELPny2/LUD/lcf1IbfyeKTv2bsupVbTH/xpFtdQlBmIP1GEK2CjjLxYhFfB+QODFAx5aw==}
     peerDependencies:
       vite: '*'
@@ -6155,7 +6155,7 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 3.0.1(typescript@5.3.3)
-      vite: 5.0.11(@types/node@20.11.14)
+      vite: 5.0.12(@types/node@20.11.14)
     transitivePeerDependencies:
       - supports-color
       - typescript
