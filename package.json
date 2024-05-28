@@ -31,7 +31,7 @@
     "@builder.io/qwik": "1.4.3",
     "@builder.io/qwik-city": "1.4.3",
     "@orama/orama": "2.0.2",
-    "@playwright/test": "1.41.1",
+    "@playwright/test": "1.44.1",
     "@types/eslint": "8.56.2",
     "@types/node": "20.11.14",
     "@typescript-eslint/eslint-plugin": "7.11.0",
