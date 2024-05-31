@@ -18,8 +18,8 @@ importers:
         specifier: 1.5.5
         version: 1.5.5(@types/node@20.11.14)(rollup@4.18.0)
       '@orama/orama':
-        specifier: 2.0.18
-        version: 2.0.18
+        specifier: 2.0.19
+        version: 2.0.19
       '@playwright/test':
         specifier: 1.44.1
         version: 1.44.1
@@ -480,8 +480,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@orama/orama@2.0.18':
-    resolution: {integrity: sha512-KSty7+r8JxXv3iCuhLqQfwMvUiSWnXPaTPQPPoVPpwdvynEKcp1JNWKzTMB2tISDggf8jKhQXHEP3QXlGkvvtA==}
+  '@orama/orama@2.0.19':
+    resolution: {integrity: sha512-9nlF5iYUghewRt2TDmAJO5TN4hYFPhql4d2ZAdJYJtGSIi2BZjMNQIqQ874w0q/rur67wp0AWLb020EakEN0aA==}
     engines: {node: '>= 16.0.0'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -3882,7 +3882,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@orama/orama@2.0.18': {}
+  '@orama/orama@2.0.19': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
