@@ -45,7 +45,7 @@
     "postcss": "8.4.38",
     "prettier": "3.2.5",
     "tailwindcss": "3.4.3",
-    "typescript": "5.3.3",
+    "typescript": "5.4.5",
     "undici": "6.11.1",
     "vercel": "34.2.4",
     "vite": "5.2.12",
