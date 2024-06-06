@@ -42,11 +42,11 @@ importers:
         specifier: 10.4.19
         version: 10.4.19(postcss@8.4.38)
       cypress:
-        specifier: 13.10.0
-        version: 13.10.0
+        specifier: 13.11.0
+        version: 13.11.0
       cypress-ct-qwik:
         specifier: 0.3.0
-        version: 0.3.0(@builder.io/qwik@1.5.5(@types/node@20.14.2)(undici@6.18.2))(cypress@13.10.0)
+        version: 0.3.0(@builder.io/qwik@1.5.5(@types/node@20.14.2)(undici@6.18.2))(cypress@13.11.0)
       eslint:
         specifier: 9.4.0
         version: 9.4.0
@@ -1235,8 +1235,8 @@ packages:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
 
-  cypress@13.10.0:
-    resolution: {integrity: sha512-tOhwRlurVOQbMduX+KonoMeQILs2cwR3yHGGENoFvvSoLUBHmJ8b9/n21gFSDqjlOJ+SRVcwuh+fG/JDsHsT6Q==}
+  cypress@13.11.0:
+    resolution: {integrity: sha512-NXXogbAxVlVje4XHX+Cx5eMFZv4Dho/2rIcdBHg9CNPFUGZdM4cRdgIgM7USmNYsC12XY0bZENEQ+KBk72fl+A==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
 
@@ -4694,13 +4694,13 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  cypress-ct-qwik@0.3.0(@builder.io/qwik@1.5.5(@types/node@20.14.2)(undici@6.18.2))(cypress@13.10.0):
+  cypress-ct-qwik@0.3.0(@builder.io/qwik@1.5.5(@types/node@20.14.2)(undici@6.18.2))(cypress@13.11.0):
     dependencies:
       '@builder.io/qwik': 1.5.5(@types/node@20.14.2)(undici@6.18.2)
       '@cypress/mount-utils': 4.1.0
-      cypress: 13.10.0
+      cypress: 13.11.0
 
-  cypress@13.10.0:
+  cypress@13.11.0:
     dependencies:
       '@cypress/request': 3.0.1
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
