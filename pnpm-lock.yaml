@@ -42,11 +42,11 @@ importers:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.4.40)
       cypress:
-        specifier: 13.17.0
-        version: 13.17.0
+        specifier: 14.2.1
+        version: 14.2.1
       cypress-ct-qwik:
         specifier: 0.3.0
-        version: 0.3.0(@builder.io/qwik@1.7.3(@types/node@20.16.1))(cypress@13.17.0)
+        version: 0.3.0(@builder.io/qwik@1.7.3(@types/node@20.16.1))(cypress@14.2.1)
       eslint:
         specifier: 9.23.0
         version: 9.23.0(jiti@1.21.7)
@@ -1319,9 +1319,9 @@ packages:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
 
-  cypress@13.17.0:
-    resolution: {integrity: sha512-5xWkaPurwkIljojFidhw8lFScyxhtiFHl/i/3zov+1Z5CmY4t9tjIdvSXfu82Y3w7wt0uR9KkucbhkVvJZLQSA==}
-    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
+  cypress@14.2.1:
+    resolution: {integrity: sha512-5xd0E7fUp0pjjib1D7ljkmCwFDgMkWuW06jWiz8dKrI7MNRrDo0C65i4Sh+oZ9YHjMHZRJBR0XZk1DfekOhOUw==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
   dashdash@1.14.1:
@@ -3044,6 +3044,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.1:
+    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
 
@@ -3080,10 +3085,6 @@ packages:
 
   side-channel-weakmap@1.0.2:
     resolution: {integrity: sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2br2Ak2A==}
-    engines: {node: '>= 0.4'}
-
-  side-channel@1.0.6:
-    resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
     engines: {node: '>= 0.4'}
 
   side-channel@1.1.0:
@@ -4949,13 +4950,13 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  cypress-ct-qwik@0.3.0(@builder.io/qwik@1.7.3(@types/node@20.16.1))(cypress@13.17.0):
+  cypress-ct-qwik@0.3.0(@builder.io/qwik@1.7.3(@types/node@20.16.1))(cypress@14.2.1):
     dependencies:
       '@builder.io/qwik': 1.7.3(@types/node@20.16.1)
       '@cypress/mount-utils': 4.1.0
-      cypress: 13.17.0
+      cypress: 14.2.1
 
-  cypress@13.17.0:
+  cypress@14.2.1:
     dependencies:
       '@cypress/request': 3.0.8
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
@@ -4994,7 +4995,7 @@ snapshots:
       process: 0.11.10
       proxy-from-env: 1.0.0
       request-progress: 3.0.0
-      semver: 7.6.2
+      semver: 7.7.1
       supports-color: 8.1.1
       tmp: 0.2.3
       tree-kill: 1.2.2
@@ -5906,7 +5907,7 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
       hasown: 2.0.2
-      side-channel: 1.0.6
+      side-channel: 1.1.0
 
   is-alphabetical@2.0.1: {}
 
@@ -7000,6 +7001,8 @@ snapshots:
 
   semver@7.6.2: {}
 
+  semver@7.7.1: {}
+
   set-blocking@2.0.0: {}
 
   set-function-length@1.2.2:
@@ -7071,13 +7074,6 @@ snapshots:
       get-intrinsic: 1.3.0
       object-inspect: 1.13.4
       side-channel-map: 1.0.1
-
-  side-channel@1.0.6:
-    dependencies:
-      call-bind: 1.0.7
-      es-errors: 1.3.0
-      get-intrinsic: 1.2.4
-      object-inspect: 1.13.1
 
   side-channel@1.1.0:
     dependencies:
