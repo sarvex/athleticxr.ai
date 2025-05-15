@@ -47,7 +47,7 @@
     "tailwindcss": "4.1.2",
     "typescript": "5.8.2",
     "undici": "7.2.3",
-    "vercel": "34.4.0",
+    "vercel": "41.7.8",
     "vite": "5.4.15",
     "vite-tsconfig-paths": "4.3.2",
     "vitest": "1.6.1"
