@@ -66,8 +66,8 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
       undici:
-        specifier: 7.5.0
-        version: 7.5.0
+        specifier: 7.16.0
+        version: 7.16.0
       vercel:
         specifier: 34.4.0
         version: 34.4.0
@@ -2910,11 +2910,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.6.2:
-    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.7.1:
     resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
@@ -3271,8 +3266,8 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  undici@7.5.0:
-    resolution: {integrity: sha512-NFQG741e8mJ0fLQk90xKxFdaSM7z4+IQpAgsFI36bCDY9Z2+aXXZjVy2uUksMouWfMI9+w5ejOq5zYYTBCQJDQ==}
+  undici@7.16.0:
+    resolution: {integrity: sha512-QEg3HPMll0o3t2ourKwOeUAZ159Kn9mx5pnzHRQO8+Wixmh88YdZRiIwat0iNzNNXn0yoEtXJqFpyW7eM8BV7g==}
     engines: {node: '>=20.18.1'}
 
   unified@11.0.4:
@@ -3541,7 +3536,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 7.5.0
+      undici: 7.16.0
       valibot: 1.0.0(typescript@5.8.2)
       vfile: 6.0.2
       vite: 5.4.15(@types/node@22.13.14)
@@ -6756,8 +6751,6 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.6.2: {}
-
   semver@7.7.1: {}
 
   semver@7.7.3: {}
@@ -7163,7 +7156,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.1
 
-  undici@7.5.0: {}
+  undici@7.16.0: {}
 
   unified@11.0.4:
     dependencies:
