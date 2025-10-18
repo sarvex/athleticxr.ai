@@ -31,7 +31,7 @@
     "@builder.io/qwik": "1.17.0",
     "@builder.io/qwik-city": "1.17.0",
     "@orama/orama": "3.1.16",
-    "@playwright/test": "1.56.0",
+    "@playwright/test": "1.56.1",
     "@types/eslint": "9.6.1",
     "@types/node": "24.7.2",
     "@typescript-eslint/eslint-plugin": "8.46.1",
@@ -48,7 +48,7 @@
     "typescript": "5.9.3",
     "undici": "7.16.0",
     "vercel": "48.2.9",
-    "vite": "7.1.9",
+    "vite": "7.1.10",
     "vite-tsconfig-paths": "5.1.4",
     "vitest": "3.2.4"
   }
